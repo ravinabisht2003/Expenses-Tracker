@@ -12,6 +12,7 @@ import {
   CircleQuestionMark,
   LogOut,
   Sun,
+  Moon,
 } from "lucide-react";
 
 export default function Nav_bar() {
@@ -51,7 +52,7 @@ export default function Nav_bar() {
   return (
     <nav className="flex flex-col items-center w-64 min-h-screen bg-purple-600 shadow-lg rounded-3xl">
       {/* Logo Section */}
-      <div className="flex items-center gap-5 px-4 py-6  rounded-t-3xl mb-5 bg-purple-500 ">
+      <div className="flex items-center gap-5 px-4 py-6">
         <img
           src={expenses_logo}
           alt="Logo"
@@ -64,7 +65,7 @@ export default function Nav_bar() {
       </div>
 
       {/* Menu Items */}
-      <div className="flex flex-col gap-2  ">
+      <div className="flex  flex-col gap-2">
         {navbarIcons.map((item, index) => {
           const Icon = item.icon;
 
@@ -82,27 +83,34 @@ export default function Nav_bar() {
           
         })}
 
-      </div>
-    <div className="flex  gap-5 px-4 py-6  rounded-t-3xl mb-5 bg-purple-500" >
       <div>
-      <div>
-          <span><CircleQuestionMark /></span>
-          <span>Help</span>
+      <div className="flex gap-9 mt-10 pt-3 pb-3 p-5  hover:bg-purple-700 transition-all duration-300 hover:translate-x-4 rounded-lg">
+        <div><CircleQuestionMark className="w-6 h-6 text-white"/></div>
+        <div><span className="font-medium text-white">Help</span></div>
       </div>
-      {/* <div className="flex gap-9 pt-3 pb-3 text-white rounded-lg cursor-pointer hover:bg-purple-700 transition-all duration-300 hover:translate-x-4"> */}
-          <span><LogOut /></span>
-          <span>Logout</span>
-      {/* </div> */}
-    </div>
-    </div>
 
-    <div className="mt-5">
-      <div>
-        <Sun />
+     <div className="flex  gap-9 pt-3 pb-3 p-5  hover:bg-purple-700 transition-all duration-300 hover:translate-x-4 rounded-lg">
+        <div><LogOut className="w-6 h-6 text-white"/></div>
+        <div><span className="font-medium text-white">Logout</span></div>
       </div>
-      <div></div>
-    </div>
+      </div>
 
+      <div className="mt-10 mb-5 p-1">
+        <div className="gap-5 rounded-full border-2 text-white flex w-30 pl-3 pr-3">
+        <div><Sun className="w-8 h-10 text-white hover:bg-purple-700 transition-all duration-300 hover:translate-x-4 rounded-lg" /></div>
+        <div><Moon className="w-8 h-10 text-white hover:bg-purple-700 transition-all duration-300 hover:translate-x-4 rounded-lg"/></div>
+        </div>
+      </div>
+
+
+
+
+
+      </div>
+    
+   
+
+   
         
       
     </nav>
