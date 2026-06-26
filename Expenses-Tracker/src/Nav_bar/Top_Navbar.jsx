@@ -4,7 +4,7 @@ import expenses_logo from "../assets/expenses_logo.jpg";
 
 export default function Top_Navbar() {
   return (
-    <div className='w-full p-10'>
+    <div className='w-full'>
     <div className='flex items-center justify-between'>
     <div>
       <h1 className='text-3xl font-bold'>Welcome back, Adaline!</h1>
