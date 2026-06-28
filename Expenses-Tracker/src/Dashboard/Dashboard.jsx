@@ -27,7 +27,7 @@ export default function Dashboard() {
   ];
   return (
     
-    <div className="flex  flex-row mt-10 gap-2">
+    <div className="flex  flex-row mt-6 gap-2">
         {Dashboard.map((item, index) => {
           const Icon = item.icon;
 

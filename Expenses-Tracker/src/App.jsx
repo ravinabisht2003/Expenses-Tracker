@@ -5,7 +5,7 @@ import Dashboard from './Dashboard/Dashboard'
 
 export default function App() {
   return (
-    <div className='m-5 p-0 flex gap-5 '>
+    <div className='m-2 p-0 flex gap-5 '>
     <div >
       <Nav_bar/>
     </div>

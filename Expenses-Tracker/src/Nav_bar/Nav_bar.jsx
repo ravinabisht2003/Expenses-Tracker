@@ -95,12 +95,12 @@ export default function Nav_bar() {
       </div>
       </div>
 
-      <div className="mt-10 mb-5 p-1">
+      {/* <div className="mt-10 mb-5 p-1">
         <div className="gap-5 rounded-full border-2 text-white flex w-30 pl-3 pr-3">
         <div><Sun  className="w-8 h-8 text-white hover:bg-purple-700 transition-all duration-300 hover:translate-x-4 rounded-lg" /></div>
         <div><Moon className="w-8 h-8 text-white hover:bg-purple-700 transition-all duration-300 hover:translate-x-4 rounded-lg"/></div>
         </div>
-      </div>
+      </div> */}
 
 
 

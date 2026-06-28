@@ -18,7 +18,7 @@ export default function Top_Navbar() {
       </div>
       <div className='flex justify-center items-center gap-2 border-2 border-gray-300 rounded-full pl-4 pr-4'>
         <div >
-          <img src={expenses_logo} alt="" className='h-12 w-12 rounded-full '/>
+          <img src={expenses_logo} alt="" className='h-11 w-12 rounded-full '/>
         </div>
         <div className='flex-col flex'>
           <h6 className='text-xs font-bold p-0 m-0'>Adaline Lively</h6>
