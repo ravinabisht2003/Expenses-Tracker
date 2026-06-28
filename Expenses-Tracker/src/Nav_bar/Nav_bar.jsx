@@ -84,7 +84,7 @@ export default function Nav_bar() {
         })}
 
       <div>
-      <div className="flex gap-9 mt-10 pt-3 pb-3 p-5  hover:bg-purple-700 transition-all duration-300 hover:translate-x-4 rounded-lg">
+      <div className="flex gap-9 mt-8 pt-3 pb-3 p-5  hover:bg-purple-700 transition-all duration-300 hover:translate-x-4 rounded-lg">
         <div><CircleQuestionMark className="w-6 h-6 text-white"/></div>
         <div><span className="font-medium text-white">Help</span></div>
       </div>
